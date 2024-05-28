@@ -1,0 +1,681 @@
+<!-- Este es un comentario en HTML-->
+<!-- DOCTYPE Es una declaracion de archivo tipo HTML-->
+<!DOCTYPE html>
+<!-- html encapsula todo nuestro código - lang= idioma-->
+<html lang="es">
+<!--head - cabeza va a ser toda la metadata e informacion del proyecto para el navegador-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi serie favorita</title>
+    <!--favicon-->
+    <link rel="icon" href="img/marcofriends.ico">
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark" id="inicio">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <h1 class="titulo">MI SERIE FAVORITA</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#conceptofriends">¿Qué fue Friends?</a>
+                    <a class="nav-link" href="#principales">Personajes Principales</a>
+                    <a class="nav-link" href="#cancion">Canción</a>
+                    <a class="nav-link" href="#reunion">The Reunion</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="logo">
+        <img src="/img/logo friends.png" alt="Logo serie Friends">
+    </div>
+    <div id="tituloSerie"></div>
+    <div class="encabezados">
+        <h3 class="tituloconcepto" id="conceptofriends">¿Qué fue F·R·I·E·N·D·S?</h3>
+    </div>
+    <div class="concepto">
+
+        <div class="info">
+
+            <img class="imagendiv" src="img/quefue.jpeg" alt="Friends">
+            <p class="texto">
+                F·R·I·E·N·D·S es una serie de
+                televisión estadounidense creada y producida por Marta Kauffman y David Crane. Se emitió por primera vez
+                el 22 de septiembre de 1994 por la cadena NBC y duró hasta el 6 de mayo de 2004.
+                <br>
+                <br>
+                La serie trata sobre la vida de un grupo de amigos —Chandler Bing, Phoebe Buffay, Mónica Geller, Ross
+                Geller, Rachel Green y Joey Tribbiani— que residen en Manhattan, Nueva York. Suceden tanto buenos como
+                malos momentos, pero con una crítica cómica a los hechos más trascendentales de la actualidad.
+                <br>
+                <br>
+                Inmediatamente después del éxito en su país, el programa comenzó su difusión por todo el mundo con
+                similares resultados. En marzo de 2019, fue considerada por The Hollywood Reporter como la mejor serie
+                de la historia, siendo también votada en 2018, según Ranked, como la mejor comedia de situación de
+                todos los tiempos.
+            </p>
+        </div>
+    </div>
+    <div class="encabezados">
+        <h3 class="tituloconcepto" id="principales">Personajes Principales</h3>
+    </div>
+    <div class="personajesprincipales">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+                    aria-label="Slide 6"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/phoebe.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Phoebe Buffay</h5>
+                        <p>Interpretada por Lisa Kudrow, es una cantante y compositora muy peculiar, además trabaja como
+                            masajista.</p>
+                        <a class="google" target="_blank"
+                            href="https://www.google.com/search?q=phoebe+buffay&rlz=1C1GCEU_esMX1093MX1093&oq=Phoebe+B&gs_lcrp=EgZjaHJvbWUqCggAEAAYsQMYgAQyCggAEAAYsQMYgAQyCggBEC4YsQMYgAQyBggCEEUYOTIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQLhiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABKgCCLACAQ&sourceid=chrome&ie=UTF-8"><b>Phoebe
+                                en Google</b></a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/rachel.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Rachel Green</h5>
+                        <p>Interpretada por Jeniffer Aniston, en el primer episodio llega vestida de novia al café donde
+                            los amigos pasan el tiempo, justo después de haber hunido de su boda.</p>
+                        <a class="google" target="_blank"
+                            href="https://www.google.com/search?q=rachel+green&sca_esv=b4340eee26af1ee7&rlz=1C1GCEU_esMX1093MX1093&sxsrf=ADLYWIL7ARzHRvpMyUopCqQJx6NAkJoVeA%3A1716925561248&ei=eTRWZqnWDsy-p84Pxpyk6AY&oq=rache&gs_lp=Egxnd3Mtd2l6LXNlcnAiBXJhY2hlKgIIADINEAAYgAQYsQMYQxiKBTIIEC4YgAQYsQMyDRAuGIAEGLEDGEMYigUyCBAuGIAEGLEDMhAQABiABBixAxhDGIMBGIoFMggQLhiABBixAzINEAAYgAQYsQMYQxiKBTIIEC4YgAQYsQMyBRAAGIAEMgoQABiABBhDGIoFSP8OUABY7wVwAHgBkAEAmAG_A6ABtwyqAQkwLjIuMC4xLjK4AQPIAQD4AQGYAgWgAuYMwgIQEC4YgAQY0QMYQxjHARiKBcICChAuGIAEGEMYigXCAgsQLhiABBixAxiDAcICDhAAGIAEGLEDGIMBGIoFwgILEAAYgAQYsQMYgwHCAggQABiABBixA5gDAJIHCTAuMS4xLjEuMqAHimA&sclient=gws-wiz-serp"><b>Rachel
+                                en Google</b></a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/monica.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Monica Geller</h5>
+                        <p>Protagonizado por Courteney Cox, es una chef, fanática de la limpieza, durante las primeras
+                            temporadas de la serie tiene una relación con un hombre más de 20 años mayor que ella, al
+                            final encuentra el amor en su amigo.</p>
+                        <a class="google" target="_blank"
+                            href="https://www.google.com/search?q=monica+geller&sca_esv=b4340eee26af1ee7&rlz=1C1GCEU_esMX1093MX1093&udm=2&biw=1227&bih=869&sxsrf=ADLYWII4p0nsDdJTxDY_1iPTB8dsN0eT0Q%3A1716925397113&ei=1TNWZtu9Bun2kPIPkIK30AE&oq=monica+&gs_lp=Egxnd3Mtd2l6LXNlcnAiB21vbmljYSAqAggAMgQQIxgnMgoQABiABBhDGIoFMgoQABiABBhDGIoFMggQABiABBixAzIKEAAYgAQYQxiKBTIEEAAYAzIKEAAYgAQYQxiKBTIIEAAYgAQYsQMyCBAAGIAEGLEDMgoQABiABBhDGIoFSKcQUABYwgZwAHgAkAEAmAHCA6ABmw-qAQkwLjMuMS4xLjK4AQPIAQD4AQGYAgegAqcQwgIFEAAYgATCAg0QABiABBixAxhDGIoFmAMAkgcJMC4yLjIuMS4yoAf1KA&sclient=gws-wiz-serp"><b>Monica
+                                en Google</b></a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/chandler.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Chandler Bing</h5>
+                        <p>Protagonizado por Matthew Perry, inicialmente los chicos no saben a qué se dedica, tiene una
+                            relación intermitente con Janice, una mujer con una voz muy singular, al final encuentra el
+                            amor en Monica.</p>
+                        <a class="google" target="_blank"
+                            href="https://www.google.com/search?q=chandler+bing&sca_esv=b4340eee26af1ee7&rlz=1C1GCEU_esMX1093MX1093&biw=1227&bih=869&sxsrf=ADLYWILnk3GPzygKEPOJ3z2GhJPW26ccYg%3A1716928252120&ei=_D5WZoT6BoTjkPIP9taZqAs&oq=chan&gs_lp=Egxnd3Mtd2l6LXNlcnAiBGNoYW4qAggAMgoQABiABBhDGIoFMgoQABiABBhDGIoFMgoQABiABBhDGIoFMhEQLhiABBixAxjRAxiDARjHATIIEAAYgAQYsQMyCBAuGIAEGLEDMg4QLhiABBixAxjRAxjHATIIEC4YgAQYsQMyCBAAGIAEGLEDMggQLhiABBixA0j-GlDrAViuEXACeAGQAQSYAfkCoAHGEKoBBzAuMy40LjK4AQPIAQD4AQGYAgegAp4KqAIQwgIKEAAYsAMY1gQYR8ICDRAAGIAEGLADGEMYigXCAhMQLhiABBiwAxhDGMgDGIoF2AEBwgIKECMYgAQYJxiKBcICBRAAGIAEwgIHECMYJxjqAsICFhAuGIAEGEMYtAIYyAMYigUY6gLYAQLCAhcQLhiABBjjBBi0AhjIAxjpBBjqAtgBAsICChAuGIAEGEMYigXCAhAQLhiABBjRAxhDGMcBGIoFwgILEAAYgAQYsQMYgwGYAwuIBgGQBg26BgQIARgIugYGCAIQARgIkgcHMi4zLjAuMqAHjJwB&sclient=gws-wiz-serp"><b>Chandler
+                                en Google</b></a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/ross.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Ross Geller</h5>
+                        <p>Interpretado por David Schwimmer, es un Paleontólogo, el cual se divorcia 3 veces a lo largo
+                            de la serie. Es el eterno enamorado de Rachel.</p>
+                        <a class="google" target="_blank"
+                            href="https://www.google.com/search?q=ross+geller&sca_esv=b4340eee26af1ee7&rlz=1C1GCEU_esMX1093MX1093&biw=1227&bih=869&sxsrf=ADLYWIJt5KL0rCDDz8brSbIYm9XuTYBaLw%3A1716928286947&ei=Hj9WZqfCOeLbkPIPx7WoKA&oq=ROSS+&gs_lp=Egxnd3Mtd2l6LXNlcnAiBVJPU1MgKgIIADINEAAYgAQYsQMYQxiKBTIFEAAYgAQyCBAuGIAEGLEDMg4QLhiABBixAxjRAxjHATIKEAAYgAQYQxiKBTIKEAAYgAQYQxiKBTIFEAAYgAQyCBAAGIAEGLEDMg4QLhiABBixAxiDARiKBTILEC4YgAQYsQMYgwFI4B1QAFiWCnAAeAGQAQCYAYAHoAHFG6oBBTUtMy4yuAEDyAEA-AEBmAIFoAL6HsICChAjGIAEGCcYigXCAgwQIxiABBgTGCcYigXCAgoQLhiABBhDGIoFwgIQEC4YgAQY0QMYQxjHARiKBcICCxAAGIAEGLEDGIMBwgIOEAAYgAQYsQMYgwEYigXCAhMQLhiABBixAxjRAxhDGMcBGIoFwgIOEC4YgAQYsQMYgwEY1ALCAhEQLhiABBixAxjRAxjHARjJA8ICCxAAGIAEGJIDGIoFmAMAkgcFNS0yLjOgB-hR&sclient=gws-wiz-serp"><b>Ross
+                                en Google</b></a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/joey.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Joey Tribbiani</h5>
+                        <p>Interpretado por Matt LeBlanc, es el galán del grupo y es actor, su papel más notable como el
+                            doctor Drake Ramoray en Días de nuestras vidas.</p>
+                        <a class="google" target="_blank"
+                            href="https://www.google.com/search?q=joey+tribbiani&sca_esv=b4340eee26af1ee7&rlz=1C1GCEU_esMX1093MX1093&biw=1227&bih=869&sxsrf=ADLYWIIoJRDbdsJ1KKQsDBZdeSCcAjNDTQ%3A1716928491390&ei=6z9WZv25F6Kwur8PrKSfkA8&oq=joey+&gs_lp=Egxnd3Mtd2l6LXNlcnAiBWpvZXkgKgIIADIQEAAYgAQYsQMYQxiDARiKBTIIEC4YgAQYsQMyCxAuGIAEGLEDGIMBMgUQLhiABDIFEC4YgAQyCxAuGIAEGLEDGIMBMgoQLhiABBhDGIoFMgoQABiABBhDGIoFMgsQLhiABBixAxiDATIFEAAYgARIgxBQAFicCHAAeAGQAQCYAcUEoAH_DKoBCzAuMi4xLjAuMS4xuAEDyAEA-AEBmAIFoALMDcICBBAjGCfCAgwQIxiABBgTGCcYigXCAgoQIxiABBgnGIoFwgINEC4YgAQYQxjUAhiKBcICDhAAGIAEGLEDGIMBGIoFwgIEEC4YA8ICCBAAGIAEGLEDwgIQEC4YgAQYsQMYQxjUAhiKBZgDAJIHCzAuMS4yLjAuMS4xoAeEuQE&sclient=gws-wiz-serp"><b>Joey
+                                en Google</b></a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!--NAVEGACION CON ANCLAS
+    <a href="#tituloconcepto">Camelia</a>
+    <a href="#primula">Prímula</a>
+    <a href="#membrillero">Membrillero japonés</a>
+    <a href="#contacto">Contacto</a>-->
+    <!--IMAGENES src(source / fuente) // alt (texto alternativo, informacion en caso de que se no pueda cargar la imagen)-->
+    <!--<img src="data:image/png;base64,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" alt="Imagen del logo de Friends la serie">-->
+    <!--LOCAL-->
+    <!--<img src="/img/logo friends.png" alt="Logo serie Friends">-->
+
+
+    <!--LISTAS: existen 2 tipos: ordenadas (ol) y no ordenadas (ul)-->
+    <!--<h3>Acerca de Friends</h3>
+    <ol>
+        <li>¿Qué fue la serie Friends?</li>
+        <li>Personajes Principales</li>
+        <li>Personajes Recurrentes</li>
+    </ol>
+    <ul>
+        <li>¿Qué fue la serie Friends?</li>
+        <li>Personajes Principales</li>
+        <li>Personajes Recurrentes</li>
+    </ul>-->
+    <!--PARRAFOS Y NAVEGACION-->
+    <!--ATRIBUTOS EN LA ETIQUETA DE APERTURA-->
+    <!--<h3 id="camelia">Camelia</h3>
+    <p>
+        Cat ass trophy. Meow in empty rooms. Catasstrophe. Nyan fluffness ahh cucumber! stare at imaginary bug or so
+        you're just gonna scroll by without saying meowdy?. Scamper my water bowl is clean and freshly replenished, so
+        i'll drink from the toilet bite off human's toes so be superior. Blow up sofa in 3 seconds funny little cat
+        chirrup noise shaking upright tail when standing next to you fart in owners food for push your water glass on
+        the floor. Carefully drink from water glass and then spill it everywhere and proceed to lick the puddle look at
+        dog hiiiiiisssss destroy house in 5 seconds so paw at beetle and eat it before it gets away or meowwww sleep on
+        my human's head. Drink water out of the faucet push your water glass on the floor but sugar, my siamese, stalks
+        me (in a good way), day and night meowing non stop for food for fight own tail, scratch at door to be let
+        outside, get let out then scratch at door immmediately after to be let back in. Relentlessly pursues moth ooooh
+        feather moving feather!. Shed everywhere shed everywhere stretching attack your ankles chase the red dot,
+        hairball run catnip eat the grass sniff run off table persian cat jump eat fish haha you hold me hooman i
+        scratch refuse to leave cardboard box, and good morning sunshine. Oooo! dangly balls! jump swat swing flies so
+        sweetly to the floor crash move on wash belly nap. Vommit food and eat it again. Annoy the old grumpy cat, start
+        a fight and then retreat to wash when i lose scratch leg; meow for can opener to feed me check cat door for
+        ambush 10 times before coming in, flex claws on the human's belly and purr like a lawnmower. Hunt anything that
+        moves if it fits i sits but rub my belly hiss, please let me outside pouty face yay! wait, it's cold out please
+        let me inside pouty face oh, thank you rub against mommy's leg oh it looks so nice out, please let me outside
+        again the neighbor cat was mean to me please let me back inside so chase mice. Swat turds around the house spend
+        all night ensuring people don't sleep sleep all day. See brother cat receive pets, attack out of jealousy bite
+        the neighbor's bratty kid carrying out surveillance on the neighbour's dog for hopped up on catnip. Scream for
+        no reason at 4 am. Plays league of legends. Cats are cute purr purr purr until owner pets why owner not pet me
+        hiss scratch meow or taco cat backwards spells taco cat sniff catnip and act crazy but why dog in house? i'm the
+        sole ruler of this home and its inhabitants smelly, stupid dogs, inferior furballs time for night-hunt, human
+        freakout but caticus cuteicus whatever. Sniff other cat's butt and hang jaw half open thereafter love fish
+        carefully drink from water glass and then spill it everywhere and proceed to lick the puddle, yet rub whiskers
+        on bare skin act innocent. I like big cats and i can not lie. So you're just gonna scroll by without saying
+        meowdy? i shredded your linens for you but get suspicious of own shadow then go play with toilette paper or nya
+        nya nyan, cat dog hate mouse eat string barf pillow no baths hate everything. Knock dish off table head butt
+        cant eat out of my own dish have secret plans for that box? i can fit in that box hey! you there, with the hands
+        i bet my nine lives on you-oooo-ooo-hooo.
+        <br />
+        Small kitty warm kitty little balls of fur hate dogs walk on a keyboard sit on human for the dog smells bad hate
+        dogs
+        massacre a bird in the living room and then look like the cutest and most innocent animal on the planet. Scratch
+        me
+        there, elevator butt white cat sleeps on a black shirt lick left leg for ninety minutes, still dirty put toy
+        mouse in
+        food bowl run out of litter box at full speed for rub face on owner run as fast as i can into another room for
+        no
+        reason. Play riveting piece on synthesizer keyboard kitty pounce, trip, faceplant you didn't see that no you
+        didn't
+        definitely didn't lick, lick, lick, and preen away the embarrassment but hide at bottom of staircase to trip
+        human but
+        kitty pounce, trip, faceplant you didn't see that no you didn't definitely didn't lick, lick, lick, and preen
+        away the
+        embarrassment catch eat throw up catch eat throw up bad birds scoot butt on the rug. Missing until dinner time
+        tweeting
+        a baseball. Naughty running cat whatever, pushes butt to face yet find box a little too small and curl up with
+        fur
+        hanging out so nyan nyan goes the cat, scraaaaape scraaaape goes the walls when the cat murders them with its
+        claws.
+        Hey! you there, with the hands sleep everywhere, but not in my bed lick arm hair hiiiiiiiiii feed me now, purrr
+        purr
+        littel cat, little cat purr purr. Chirp at birds eat owner's food, but meow and walk away be a nyan cat, feel
+        great
+        about it, be annoying 24/7 poop rainbows in litter box all day so i'm going to lap some water out of my master's
+        cup
+        meow. Meow. Plan your travel i vomit in the bed in the middle of the night yet paw your face to wake you up in
+        the
+        morning, and thug cat and purr when being pet. Purrrrrr slap the dog because cats rule so pet right here, no not
+        there,
+        here, no fool, right here that other cat smells funny you should really give me all the treats because i smell
+        the best
+        and omg you finally got the right spot and i love you right now and pose purrfectly to show my beauty and toilet
+        paper
+        attack claws fluff everywhere meow miao french ciao litterbox. Chase ball of string give me attention or face
+        the wrath
+        of my claws but one of these days i'm going to get that red dot, just you wait and see swat turds around the
+        house so
+        meowing non stop for food yet licks your face. Is good you understand your place in my world human give me
+        attention
+        meow. Don't nosh on the birds chase imaginary bugs slap the dog because cats rule yet thug cat . Making sure
+        that fluff
+        gets into the owner's eyes.
+        <br />
+        Put toy mouse in food bowl run out of litter box at full speed i like big cats and i can not lie, meowwww
+        catasstrophe swipe at owner's legs. I like frogs and 0 gravity it's 3am, time to create some chaos and meow meow
+        you are my owner so here is a dead rat or adventure always if it smells like fish eat as much as you wish found
+        somthing move i bite it tail i love cuddles. Bite the neighbor's bratty kid love for cats are the world yet love
+        blinks and purr purr purr purr yawn but roll over and sun my belly yet kitty pounce, trip, faceplant you didn't
+        see that no you didn't definitely didn't lick, lick, lick, and preen away the embarrassment. Russian blue hunt
+        anything that moves, and grab pompom in mouth and put in water dish. Milk the cow i bet my nine lives on
+        you-oooo-ooo-hooo try to hold own back foot to clean it but foot reflexively kicks you in face, go into a rage
+        and bite own foot, hard. Somehow manage to catch a bird but have no idea what to do next, so play with it until
+        it dies of shock immediately regret falling into bathtub so meow to be let out mew mew yet cat gets stuck in
+        tree firefighters try to get cat down firefighters get stuck in tree cat eats firefighters' slippers. Stare at
+        imaginary bug meow and pounce on unsuspecting person lick the plastic bag. Sleep on dog bed, force dog to sleep
+        on floor i will be pet i will be pet and then i will hiss purr like an angel. Pose purrfectly to show my beauty.
+        You are a captive audience while sitting on the toilet, pet me run in circles thug cat stares at human while
+        pushing stuff off a table yet i shredded your linens for you wake up human for food at 4am. Make it to the
+        carpet before i vomit mmmmmm cat meoooow i iz master of hoomaan, not hoomaan master of i, oooh damn dat dog run
+        as fast as i can into another room for no reason favor packaging over toy kitten is playing with dead mouse.
+        <br />
+        Catch small lizards, bring them into house, then unable to find them on carpet. Kitty attempt to leap between
+        furniture but woefully miscalibrate and bellyflop onto the floor; what's your problem? i meant to do that now i
+        shall wash myself intently for chase ball of string for really likes hummus so find empty spot in cupboard and
+        sleep all day spot something, big eyes, big eyes, crouch, shake butt, prepare to pounce. Step on your keyboard
+        while you're gaming and then turn in a circle Gate keepers of hell yet pee in the shoe or need to chase tail,
+        but x grab pompom in mouth and put in water dish eat a rug and furry furry hairs everywhere oh no human coming
+        lie on counter don't get off counter. Wake up wander around the house making large amounts of noise jump on top
+        of your human's bed and fall asleep again sleep on dog bed, force dog to sleep on floor, cat is love, cat is
+        life, fall over dead (not really but gets sypathy). Chirp at birds make it to the carpet before i vomit mmmmmm
+        so somehow manage to catch a bird but have no idea what to do next, so play with it until it dies of shock for
+        pet me pet me don't pet me sleep over your phone and make cute snoring noises meowzer, or murder hooman toes.
+        Refuse to drink water except out of someone's glass stares at human while pushing stuff off a table i rule on my
+        back you rub my tummy i bite you hard poop on grasses or jump on human and sleep on her all night long be long
+        in the bed, purr in the morning and then give a bite to every human around for not waking up request food, purr
+        loud scratch the walls, the floor, the windows, the humans so rub face on everything, for mesmerizing birds.
+        Fish i must find my red catnip fishy fish relentlessly pursues moth. Cat cat moo moo lick ears lick paws fall
+        asleep upside-down. Eat a rug and furry furry hairs everywhere oh no human coming lie on counter don't get off
+        counter i like fish. So you're just gonna scroll by without saying meowdy? sleep on my human's head yet paw at
+        your fat belly. Eat plants, meow, and throw up because i ate plants. Stares at human while pushing stuff off a
+        table catching very fast laser pointer for experiences short bursts of poo-phoria after going to the loo. Lick
+        yarn hanging out of own butt mice. What a cat-ass-trophy! as lick i the shoes. Car rides are evil spill litter
+        box, scratch at owner, destroy all furniture, especially couch yet fight an alligator and win stare at the wall,
+        play with food and get confused by dust cat milk copy park pee walk owner escape bored tired cage droppings sick
+        vet vomit or cat meoooow i iz master of hoomaan, not hoomaan master of i, oooh damn dat dog. I just saw other
+        cats inside the house and nobody ask me before using my litter box sit on the laptop. Freak human out make funny
+        noise mow mow mow mow mow mow success now attack human slap the dog because cats rule, lick yarn hanging out of
+        own butt. Growl at dogs in my sleep bathe private parts with tongue then lick owner's face. The cat was chasing
+        the mouse sleep in the bathroom sink.
+        <br />
+        Scratch me there, elevator butt sleep on keyboard. Make it to the carpet before i vomit mmmmmm taco cat
+        backwards spells taco cat but sniff catnip and act crazy so find empty spot in cupboard and sleep all day
+        ð•„ð”¼ð•†ð•Ž eat plants, meow, and throw up because i ate plants for purr for no reason. See brother cat
+        receive pets, attack out of jealousy bite the neighbor's bratty kid, and drool yet rub my belly hiss yet roll on
+        the floor purring your whiskers off annoy kitten brother with poking sun bathe. Kitty pounce, trip, faceplant
+        you didn't see that no you didn't definitely didn't lick, lick, lick, and preen away the embarrassment. Prow??
+        ew dog you drink from the toilet, yum yum warm milk hotter pls, ouch too hot behind the couch litter kitter
+        kitty litty little kitten big roar roar feed me or cat jumps and falls onto the couch purrs and wakes up in a
+        new dimension filled with kitty litter meow meow yummy there is a bunch of cats hanging around eating catnip
+        make muffins, or attack curtains. Throw down all the stuff in the kitchen. Cat mojo . As lick i the shoes stare
+        at the wall, play with food and get confused by dust. I like big cats and i can not lie bathe private parts with
+        tongue then lick owner's face or licks paws. Reaches under door into adjacent room get video posted to internet
+        for chasing red dot. That box? i can fit in that box in the middle of the night i crawl onto your chest and purr
+        gently to help you sleep so you're just gonna scroll by without saying meowdy?. Purr for no reason meow chase
+        red laser dot intently sniff hand nyan nyan goes the cat, scraaaaape scraaaape goes the walls when the cat
+        murders them with its claws. Plays league of legends meow to be let in cough hairball on conveniently placed
+        pants. Crash against wall but walk away like nothing happened no, you can't close the door, i haven't decided
+        whether or not i wanna go out with tail in the air, and sit on human but always hungry cuddle no cuddle cuddle
+        love scratch scratch catasstrophe. Only use one corner of the litter box. Leave hair on owner's clothes to pet a
+        cat, rub its belly, endure blood and agony, quietly weep, keep rubbing belly, wake up wander around the house
+        making large amounts of noise jump on top of your human's bed and fall asleep again, roll over and sun my belly
+        roll on the floor purring your whiskers off. Where is my slave? I'm getting hungry. Intrigued by the shower meow
+        loudly just to annoy owners eat grass, throw it back up. Stare at ceiling stuff and things yet x for am in
+        trouble, roll over, too cute for human to get mad lay on arms while you're using the keyboard or with tail in
+        the air. Damn that dog take a big fluffing crap ðŸ’© meow all night having their mate disturbing sleeping
+        humans. Meow all night having their mate disturbing sleeping humans cats are the world yet bring your owner a
+        dead bird, find a way to fit in tiny box grab pompom in mouth and put in water dish spread kitty litter all over
+        house or i like fish. I see a bird i stare at it i meow at it i do a wiggle come here birdy disappear for four
+        days and return home with an expensive injury; bite the vet, or lick sellotape and poop on floor and watch human
+        clean up steal mom's crouton while she is in the bathroom and bite off human's toes and claw drapes. Stick butt
+        in face i shall purr myself to sleep. I rule on my back you rub my tummy i bite you hard pee in human's bed
+        until he cleans the litter box so my cat stared at me he was sipping his tea, too i vomit in the bed in the
+        middle of the night but steal the warm chair right after you get up.
+    </p>
+    <h3 id="primula">Prímula</h3>
+    <p>Cat ass trophy. Meow in empty rooms. Catasstrophe. Nyan fluffness ahh cucumber! stare at imaginary bug or so
+        you're just gonna scroll by without saying meowdy?. Scamper my water bowl is clean and freshly replenished, so
+        i'll drink from the toilet bite off human's toes so be superior. Blow up sofa in 3 seconds funny little cat
+        chirrup noise shaking upright tail when standing next to you fart in owners food for push your water glass on
+        the floor. Carefully drink from water glass and then spill it everywhere and proceed to lick the puddle look at
+        dog hiiiiiisssss destroy house in 5 seconds so paw at beetle and eat it before it gets away or meowwww sleep on
+        my human's head. Drink water out of the faucet push your water glass on the floor but sugar, my siamese, stalks
+        me (in a good way), day and night meowing non stop for food for fight own tail, scratch at door to be let
+        outside, get let out then scratch at door immmediately after to be let back in. Relentlessly pursues moth ooooh
+        feather moving feather!. Shed everywhere shed everywhere stretching attack your ankles chase the red dot,
+        hairball run catnip eat the grass sniff run off table persian cat jump eat fish haha you hold me hooman i
+        scratch refuse to leave cardboard box, and good morning sunshine. Oooo! dangly balls! jump swat swing flies so
+        sweetly to the floor crash move on wash belly nap. Vommit food and eat it again. Annoy the old grumpy cat, start
+        a fight and then retreat to wash when i lose scratch leg; meow for can opener to feed me check cat door for
+        ambush 10 times before coming in, flex claws on the human's belly and purr like a lawnmower. Hunt anything that
+        moves if it fits i sits but rub my belly hiss, please let me outside pouty face yay! wait, it's cold out please
+        let me inside pouty face oh, thank you rub against mommy's leg oh it looks so nice out, please let me outside
+        again the neighbor cat was mean to me please let me back inside so chase mice. Swat turds around the house spend
+        all night ensuring people don't sleep sleep all day. See brother cat receive pets, attack out of jealousy bite
+        the neighbor's bratty kid carrying out surveillance on the neighbour's dog for hopped up on catnip. Scream for
+        no reason at 4 am. Plays league of legends. Cats are cute purr purr purr until owner pets why owner not pet me
+        hiss scratch meow or taco cat backwards spells taco cat sniff catnip and act crazy but why dog in house? i'm the
+        sole ruler of this home and its inhabitants smelly, stupid dogs, inferior furballs time for night-hunt, human
+        freakout but caticus cuteicus whatever. Sniff other cat's butt and hang jaw half open thereafter love fish
+        carefully drink from water glass and then spill it everywhere and proceed to lick the puddle, yet rub whiskers
+        on bare skin act innocent. I like big cats and i can not lie. So you're just gonna scroll by without saying
+        meowdy? i shredded your linens for you but get suspicious of own shadow then go play with toilette paper or nya
+        nya nyan, cat dog hate mouse eat string barf pillow no baths hate everything. Knock dish off table head butt
+        cant eat out of my own dish have secret plans for that box? i can fit in that box hey! you there, with the hands
+        i bet my nine lives on you-oooo-ooo-hooo.
+        <br />
+        Small kitty warm kitty little balls of fur hate dogs walk on a keyboard sit on human for the dog smells bad hate
+        dogs massacre a bird in the living room and then look like the cutest and most innocent animal on the planet.
+        Scratch me there, elevator butt white cat sleeps on a black shirt lick left leg for ninety minutes, still dirty
+        put toy mouse in food bowl run out of litter box at full speed for rub face on owner run as fast as i can into
+        another room for no reason. Play riveting piece on synthesizer keyboard kitty pounce, trip, faceplant you didn't
+        see that no you didn't definitely didn't lick, lick, lick, and preen away the embarrassment but hide at bottom
+        of staircase to trip human but kitty pounce, trip, faceplant you didn't see that no you didn't definitely didn't
+        lick, lick, lick, and preen away the embarrassment catch eat throw up catch eat throw up bad birds scoot butt on
+        the rug. Missing until dinner time tweeting a baseball. Naughty running cat whatever, pushes butt to face yet
+        find box a little too small and curl up with fur hanging out so nyan nyan goes the cat, scraaaaape scraaaape
+        goes the walls when the cat murders them with its claws. Hey! you there, with the hands sleep everywhere, but
+        not in my bed lick arm hair hiiiiiiiiii feed me now, purrr purr littel cat, little cat purr purr. Chirp at birds
+        eat owner's food, but meow and walk away be a nyan cat, feel great about it, be annoying 24/7 poop rainbows in
+        litter box all day so i'm going to lap some water out of my master's cup meow. Meow. Plan your travel i vomit in
+        the bed in the middle of the night yet paw your face to wake you up in the morning, and thug cat and purr when
+        being pet. Purrrrrr slap the dog because cats rule so pet right here, no not there, here, no fool, right here
+        that other cat smells funny you should really give me all the treats because i smell the best and omg you
+        finally got the right spot and i love you right now and pose purrfectly to show my beauty and toilet paper
+        attack claws fluff everywhere meow miao french ciao litterbox. Chase ball of string give me attention or face
+        the wrath of my claws but one of these days i'm going to get that red dot, just you wait and see swat turds
+        around the house so meowing non stop for food yet licks your face. Is good you understand your place in my world
+        human give me attention meow. Don't nosh on the birds chase imaginary bugs slap the dog because cats rule yet
+        thug cat . Making sure that fluff gets into the owner's eyes.
+        <br />
+        Put toy mouse in food bowl run out of litter box at full speed i like big cats and i can not lie, meowwww
+        catasstrophe swipe at owner's legs. I like frogs and 0 gravity it's 3am, time to create some chaos and meow meow
+        you are my owner so here is a dead rat or adventure always if it smells like fish eat as much as you wish found
+        somthing move i bite it tail i love cuddles. Bite the neighbor's bratty kid love for cats are the world yet love
+        blinks and purr purr purr purr yawn but roll over and sun my belly yet kitty pounce, trip, faceplant you didn't
+        see that no you didn't definitely didn't lick, lick, lick, and preen away the embarrassment. Russian blue hunt
+        anything that moves, and grab pompom in mouth and put in water dish. Milk the cow i bet my nine lives on
+        you-oooo-ooo-hooo try to hold own back foot to clean it but foot reflexively kicks you in face, go into a rage
+        and bite own foot, hard. Somehow manage to catch a bird but have no idea what to do next, so play with it until
+        it dies of shock immediately regret falling into bathtub so meow to be let out mew mew yet cat gets stuck in
+        tree firefighters try to get cat down firefighters get stuck in tree cat eats firefighters' slippers. Stare at
+        imaginary bug meow and pounce on unsuspecting person lick the plastic bag. Sleep on dog bed, force dog to sleep
+        on floor i will be pet i will be pet and then i will hiss purr like an angel. Pose purrfectly to show my beauty.
+        You are a captive audience while sitting on the toilet, pet me run in circles thug cat stares at human while
+        pushing stuff off a table yet i shredded your linens for you wake up human for food at 4am. Make it to the
+        carpet before i vomit mmmmmm cat meoooow i iz master of hoomaan, not hoomaan master of i, oooh damn dat dog run
+        as fast as i can into another room for no reason favor packaging over toy kitten is playing with dead mouse.
+        <br />
+        Catch small lizards, bring them into house, then unable to find them on carpet. Kitty attempt to leap between
+        furniture but woefully miscalibrate and bellyflop onto the floor; what's your problem? i meant to do that now i
+        shall wash myself intently for chase ball of string for really likes hummus so find empty spot in cupboard and
+        sleep all day spot something, big eyes, big eyes, crouch, shake butt, prepare to pounce. Step on your keyboard
+        while you're gaming and then turn in a circle Gate keepers of hell yet pee in the shoe or need to chase tail,
+        but x grab pompom in mouth and put in water dish eat a rug and furry furry hairs everywhere oh no human coming
+        lie on counter don't get off counter. Wake up wander around the house making large amounts of noise jump on top
+        of your human's bed and fall asleep again sleep on dog bed, force dog to sleep on floor, cat is love, cat is
+        life, fall over dead (not really but gets sypathy). Chirp at birds make it to the carpet before i vomit mmmmmm
+        so somehow manage to catch a bird but have no idea what to do next, so play with it until it dies of shock for
+        pet me pet me don't pet me sleep over your phone and make cute snoring noises meowzer, or murder hooman toes.
+        Refuse to drink water except out of someone's glass stares at human while pushing stuff off a table i rule on my
+        back you rub my tummy i bite you hard poop on grasses or jump on human and sleep on her all night long be long
+        in the bed, purr in the morning and then give a bite to every human around for not waking up request food, purr
+        loud scratch the walls, the floor, the windows, the humans so rub face on everything, for mesmerizing birds.
+        Fish i must find my red catnip fishy fish relentlessly pursues moth. Cat cat moo moo lick ears lick paws fall
+        asleep upside-down. Eat a rug and furry furry hairs everywhere oh no human coming lie on counter don't get off
+        counter i like fish. So you're just gonna scroll by without saying meowdy? sleep on my human's head yet paw at
+        your fat belly. Eat plants, meow, and throw up because i ate plants. Stares at human while pushing stuff off a
+        table catching very fast laser pointer for experiences short bursts of poo-phoria after going to the loo. Lick
+        yarn hanging out of own butt mice. What a cat-ass-trophy! as lick i the shoes. Car rides are evil spill litter
+        box, scratch at owner, destroy all furniture, especially couch yet fight an alligator and win stare at the wall,
+        play with food and get confused by dust cat milk copy park pee walk owner escape bored tired cage droppings sick
+        vet vomit or cat meoooow i iz master of hoomaan, not hoomaan master of i, oooh damn dat dog. I just saw other
+        cats inside the house and nobody ask me before using my litter box sit on the laptop. Freak human out make funny
+        noise mow mow mow mow mow mow success now attack human slap the dog because cats rule, lick yarn hanging out of
+        own butt. Growl at dogs in my sleep bathe private parts with tongue then lick owner's face. The cat was chasing
+        the mouse sleep in the bathroom sink.
+        <br />
+        Scratch me there, elevator butt sleep on keyboard. Make it to the carpet before i vomit mmmmmm taco cat
+        backwards spells taco cat but sniff catnip and act crazy so find empty spot in cupboard and sleep all day
+        ð•„ð”¼ð•†ð•Ž eat plants, meow, and throw up because i ate plants for purr for no reason. See brother cat
+        receive pets, attack out of jealousy bite the neighbor's bratty kid, and drool yet rub my belly hiss yet roll on
+        the floor purring your whiskers off annoy kitten brother with poking sun bathe. Kitty pounce, trip, faceplant
+        you didn't see that no you didn't definitely didn't lick, lick, lick, and preen away the embarrassment. Prow??
+        ew dog you drink from the toilet, yum yum warm milk hotter pls, ouch too hot behind the couch litter kitter
+        kitty litty little kitten big roar roar feed me or cat jumps and falls onto the couch purrs and wakes up in a
+        new dimension filled with kitty litter meow meow yummy there is a bunch of cats hanging around eating catnip
+        make muffins, or attack curtains. Throw down all the stuff in the kitchen. Cat mojo . As lick i the shoes stare
+        at the wall, play with food and get confused by dust. I like big cats and i can not lie bathe private parts with
+        tongue then lick owner's face or licks paws. Reaches under door into adjacent room get video posted to internet
+        for chasing red dot. That box? i can fit in that box in the middle of the night i crawl onto your chest and purr
+        gently to help you sleep so you're just gonna scroll by without saying meowdy?. Purr for no reason meow chase
+        red laser dot intently sniff hand nyan nyan goes the cat, scraaaaape scraaaape goes the walls when the cat
+        murders them with its claws. Plays league of legends meow to be let in cough hairball on conveniently placed
+        pants. Crash against wall but walk away like nothing happened no, you can't close the door, i haven't decided
+        whether or not i wanna go out with tail in the air, and sit on human but always hungry cuddle no cuddle cuddle
+        love scratch scratch catasstrophe. Only use one corner of the litter box. Leave hair on owner's clothes to pet a
+        cat, rub its belly, endure blood and agony, quietly weep, keep rubbing belly, wake up wander around the house
+        making large amounts of noise jump on top of your human's bed and fall asleep again, roll over and sun my belly
+        roll on the floor purring your whiskers off. Where is my slave? I'm getting hungry. Intrigued by the shower meow
+        loudly just to annoy owners eat grass, throw it back up. Stare at ceiling stuff and things yet x for am in
+        trouble, roll over, too cute for human to get mad lay on arms while you're using the keyboard or with tail in
+        the air. Damn that dog take a big fluffing crap ðŸ’© meow all night having their mate disturbing sleeping
+        humans. Meow all night having their mate disturbing sleeping humans cats are the world yet bring your owner a
+        dead bird, find a way to fit in tiny box grab pompom in mouth and put in water dish spread kitty litter all over
+        house or i like fish. I see a bird i stare at it i meow at it i do a wiggle come here birdy disappear for four
+        days and return home with an expensive injury; bite the vet, or lick sellotape and poop on floor and watch human
+        clean up steal mom's crouton while she is in the bathroom and bite off human's toes and claw drapes. Stick butt
+        in face i shall purr myself to sleep. I rule on my back you rub my tummy i bite you hard pee in human's bed
+        until he cleans the litter box so my cat stared at me he was sipping his tea, too i vomit in the bed in the
+        middle of the night but steal the warm chair right after you get up.
+    </p>
+
+    <h3 id="membrillero">Membrillero japonés</h3>
+    <p>Cat ass trophy. Meow in empty rooms. Catasstrophe. Nyan fluffness ahh cucumber! stare at imaginary bug or so
+        you're just gonna scroll by without saying meowdy?. Scamper my water bowl is clean and freshly replenished, so
+        i'll drink from the toilet bite off human's toes so be superior. Blow up sofa in 3 seconds funny little cat
+        chirrup noise shaking upright tail when standing next to you fart in owners food for push your water glass on
+        the floor. Carefully drink from water glass and then spill it everywhere and proceed to lick the puddle look at
+        dog hiiiiiisssss destroy house in 5 seconds so paw at beetle and eat it before it gets away or meowwww sleep on
+        my human's head. Drink water out of the faucet push your water glass on the floor but sugar, my siamese, stalks
+        me (in a good way), day and night meowing non stop for food for fight own tail, scratch at door to be let
+        outside, get let out then scratch at door immmediately after to be let back in. Relentlessly pursues moth ooooh
+        feather moving feather!. Shed everywhere shed everywhere stretching attack your ankles chase the red dot,
+        hairball run catnip eat the grass sniff run off table persian cat jump eat fish haha you hold me hooman i
+        scratch refuse to leave cardboard box, and good morning sunshine. Oooo! dangly balls! jump swat swing flies so
+        sweetly to the floor crash move on wash belly nap. Vommit food and eat it again. Annoy the old grumpy cat, start
+        a fight and then retreat to wash when i lose scratch leg; meow for can opener to feed me check cat door for
+        ambush 10 times before coming in, flex claws on the human's belly and purr like a lawnmower. Hunt anything that
+        moves if it fits i sits but rub my belly hiss, please let me outside pouty face yay! wait, it's cold out please
+        let me inside pouty face oh, thank you rub against mommy's leg oh it looks so nice out, please let me outside
+        again the neighbor cat was mean to me please let me back inside so chase mice. Swat turds around the house spend
+        all night ensuring people don't sleep sleep all day. See brother cat receive pets, attack out of jealousy bite
+        the neighbor's bratty kid carrying out surveillance on the neighbour's dog for hopped up on catnip. Scream for
+        no reason at 4 am. Plays league of legends. Cats are cute purr purr purr until owner pets why owner not pet me
+        hiss scratch meow or taco cat backwards spells taco cat sniff catnip and act crazy but why dog in house? i'm the
+        sole ruler of this home and its inhabitants smelly, stupid dogs, inferior furballs time for night-hunt, human
+        freakout but caticus cuteicus whatever. Sniff other cat's butt and hang jaw half open thereafter love fish
+        carefully drink from water glass and then spill it everywhere and proceed to lick the puddle, yet rub whiskers
+        on bare skin act innocent. I like big cats and i can not lie. So you're just gonna scroll by without saying
+        meowdy? i shredded your linens for you but get suspicious of own shadow then go play with toilette paper or nya
+        nya nyan, cat dog hate mouse eat string barf pillow no baths hate everything. Knock dish off table head butt
+        cant eat out of my own dish have secret plans for that box? i can fit in that box hey! you there, with the hands
+        i bet my nine lives on you-oooo-ooo-hooo.
+        <br />
+        Small kitty warm kitty little balls of fur hate dogs walk on a keyboard sit on human for the dog smells bad hate
+        dogs massacre a bird in the living room and then look like the cutest and most innocent animal on the planet.
+        Scratch me there, elevator butt white cat sleeps on a black shirt lick left leg for ninety minutes, still dirty
+        put toy mouse in food bowl run out of litter box at full speed for rub face on owner run as fast as i can into
+        another room for no reason. Play riveting piece on synthesizer keyboard kitty pounce, trip, faceplant you didn't
+        see that no you didn't definitely didn't lick, lick, lick, and preen away the embarrassment but hide at bottom
+        of staircase to trip human but kitty pounce, trip, faceplant you didn't see that no you didn't definitely didn't
+        lick, lick, lick, and preen away the embarrassment catch eat throw up catch eat throw up bad birds scoot butt on
+        the rug. Missing until dinner time tweeting a baseball. Naughty running cat whatever, pushes butt to face yet
+        find box a little too small and curl up with fur hanging out so nyan nyan goes the cat, scraaaaape scraaaape
+        goes the walls when the cat murders them with its claws. Hey! you there, with the hands sleep everywhere, but
+        not in my bed lick arm hair hiiiiiiiiii feed me now, purrr purr littel cat, little cat purr purr. Chirp at birds
+        eat owner's food, but meow and walk away be a nyan cat, feel great about it, be annoying 24/7 poop rainbows in
+        litter box all day so i'm going to lap some water out of my master's cup meow. Meow. Plan your travel i vomit in
+        the bed in the middle of the night yet paw your face to wake you up in the morning, and thug cat and purr when
+        being pet. Purrrrrr slap the dog because cats rule so pet right here, no not there, here, no fool, right here
+        that other cat smells funny you should really give me all the treats because i smell the best and omg you
+        finally got the right spot and i love you right now and pose purrfectly to show my beauty and toilet paper
+        attack claws fluff everywhere meow miao french ciao litterbox. Chase ball of string give me attention or face
+        the wrath of my claws but one of these days i'm going to get that red dot, just you wait and see swat turds
+        around the house so meowing non stop for food yet licks your face. Is good you understand your place in my world
+        human give me attention meow. Don't nosh on the birds chase imaginary bugs slap the dog because cats rule yet
+        thug cat . Making sure that fluff gets into the owner's eyes.
+        <br />
+        Put toy mouse in food bowl run out of litter box at full speed i like big cats and i can not lie, meowwww
+        catasstrophe swipe at owner's legs. I like frogs and 0 gravity it's 3am, time to create some chaos and meow meow
+        you are my owner so here is a dead rat or adventure always if it smells like fish eat as much as you wish found
+        somthing move i bite it tail i love cuddles. Bite the neighbor's bratty kid love for cats are the world yet love
+        blinks and purr purr purr purr yawn but roll over and sun my belly yet kitty pounce, trip, faceplant you didn't
+        see that no you didn't definitely didn't lick, lick, lick, and preen away the embarrassment. Russian blue hunt
+        anything that moves, and grab pompom in mouth and put in water dish. Milk the cow i bet my nine lives on
+        you-oooo-ooo-hooo try to hold own back foot to clean it but foot reflexively kicks you in face, go into a rage
+        and bite own foot, hard. Somehow manage to catch a bird but have no idea what to do next, so play with it until
+        it dies of shock immediately regret falling into bathtub so meow to be let out mew mew yet cat gets stuck in
+        tree firefighters try to get cat down firefighters get stuck in tree cat eats firefighters' slippers. Stare at
+        imaginary bug meow and pounce on unsuspecting person lick the plastic bag. Sleep on dog bed, force dog to sleep
+        on floor i will be pet i will be pet and then i will hiss purr like an angel. Pose purrfectly to show my beauty.
+        You are a captive audience while sitting on the toilet, pet me run in circles thug cat stares at human while
+        pushing stuff off a table yet i shredded your linens for you wake up human for food at 4am. Make it to the
+        carpet before i vomit mmmmmm cat meoooow i iz master of hoomaan, not hoomaan master of i, oooh damn dat dog run
+        as fast as i can into another room for no reason favor packaging over toy kitten is playing with dead mouse.
+    </p>
+    <h3 id="contacto">Contacto</h3>
+    <p>Contáctanos a través de los siguientes medios:
+        <br />
+        Cat ass trophy. Meow in empty rooms. Catasstrophe. Nyan fluffness ahh cucumber! stare at imaginary bug or so
+        you're just gonna scroll by without saying meowdy?. Scamper my water bowl is clean and freshly replenished, so
+        i'll drink from the toilet bite off human's toes so be superior. Blow up sofa in 3 seconds funny little cat
+        chirrup noise shaking upright tail when standing next to you fart in owners food for push your water glass on
+        the floor. Carefully drink from water glass and then spill it everywhere and proceed to lick the puddle look at
+        dog hiiiiiisssss destroy house in 5 seconds so paw at beetle and eat it before it gets away or meowwww sleep on
+        my human's head. Drink water out of the faucet push your water glass on the floor but sugar, my siamese, stalks
+        me (in a good way), day and night meowing non stop for food for fight own tail, scratch at door to be let
+        outside, get let out then scratch at door immmediately after to be let back in. Relentlessly pursues moth ooooh
+        feather moving feather!. Shed everywhere shed everywhere stretching attack your ankles chase the red dot,
+        hairball run catnip eat the grass sniff run off table persian cat jump eat fish haha you hold me hooman i
+        scratch refuse to leave cardboard box, and good morning sunshine. Oooo! dangly balls! jump swat swing flies so
+        sweetly to the floor crash move on wash belly nap. Vommit food and eat it again. Annoy the old grumpy cat, start
+        a fight and then retreat to wash when i lose scratch leg; meow for can opener to feed me check cat door for
+        ambush 10 times before coming in, flex claws on the human's belly and purr like a lawnmower. Hunt anything that
+        moves if it fits i sits but rub my belly hiss, please let me outside pouty face yay! wait, it's cold out please
+        let me inside pouty face oh, thank you rub against mommy's leg oh it looks so nice out, please let me outside
+        again the neighbor cat was mean to me please let me back inside so chase mice. Swat turds around the house spend
+        all night ensuring people don't sleep sleep all day. See brother cat receive pets, attack out of jealousy bite
+        the neighbor's bratty kid carrying out surveillance on the neighbour's dog for hopped up on catnip. Scream for
+        no reason at 4 am. Plays league of legends. Cats are cute purr purr purr until owner pets why owner not pet me
+        hiss scratch meow or taco cat backwards spells taco cat sniff catnip and act crazy but why dog in house? i'm the
+        sole ruler of this home and its inhabitants smelly, stupid dogs, inferior furballs time for night-hunt, human
+        freakout but caticus cuteicus whatever. Sniff other cat's butt and hang jaw half open thereafter love fish
+        carefully drink from water glass and then spill it everywhere and proceed to lick the puddle, yet rub whiskers
+        on bare skin act innocent. I like big cats and i can not lie. So you're just gonna scroll by without saying
+        meowdy? i shredded your linens for you but get suspicious of own shadow then go play with toilette paper or nya
+        nya nyan, cat dog hate mouse eat string barf pillow no baths hate everything. Knock dish off table head butt
+        cant eat out of my own dish have secret plans for that box? i can fit in that box hey! you there, with the hands
+        i bet my nine lives on you-oooo-ooo-hooo.
+    </p>-->
+
+    <!--IMAGEN CLICKEABLE
+    <a href="#inicio">
+        <img src="img/the reunion2.jpg" alt="">
+    </a>-->
+    <div class="encabezados">
+        <h3 class="tituloconcepto" id="cancion">Canción de entrada</h3>
+    </div>
+    <div class="concepto amarillo">
+
+        <div class="info">
+
+            <img class="imagendiv" src="img/ill be there for you.png" alt="Friends">
+            <p class="texto">
+            <ul class="listafriends">
+                <li>«I'll Be There for You» —en español: «Ahí estaré para ti»— es el tema principal de la serie de la
+                    NBC, Friends.</li>
+                <li>Esta canción fue escrita en 1994 para la serie por Michael Skloff y Allee Willis e interpretada por
+                    el grupo The Rembrandts.</li>
+                <li>La canción estuvo como N.º 1 por ocho semanas en el Billboard Hot 100 Airplay.</li>
+                <li><br></li>
+                <li><br></li>
+                <li>I'll be there for you</li>
+                <li>(When the rain starts to pour)</li>
+                <li>I'll be there for you</li>
+                <li>(Like I've been there before)</li>
+                <li>I'll be there for you</li>
+                <li>('Cause you're there for me too)</li>
+            </ul>
+
+            </p>
+        </div>
+    </div>
+    <div class="encabezados">
+        <h3 class="tituloconcepto" id="reunion">Friends The Reunion</h3>
+    </div>
+    <div class="concepto">
+
+        <div class="info">
+
+            <img class="imagendiv" src="img/the reunion2.jpg" alt="Friends">
+            <p class="texto">
+                <br>
+                Friends: The Reunion, también conocido como The One Where They Get Back Together, es un especial de
+                reunión de 2021 de la comedia de situación estadounidense Friends. 
+                <br>
+                <br>
+                El episodio está producido por los
+                cocreadores de la serie, Marta Kauffman y David Crane, Kevin S. Bright, el presentador James Corden,
+                conocido presentador televisivo británico, Ben Winston (que también dirigió el especial), y por último,
+                aunque no menos importante, el reparto principal de la serie. 
+                <br>
+                <br>
+                En este episodio sin guion, el reparto
+                principal vuelve a visitar los decorados de la serie original (como los apartamentos, la cafetería
+                Central Perk y la fuente de agua), además, se reúnen con invitados que aparecieron en la serie y con
+                famosos, haciendo también lecturas de mesa y recreaciones de episodios antiguos de Friends, compartiendo
+                imágenes entre bastidores.
+            </p>
+        </div>
+    </div>
+    <!-- Pie de pagina (footer) -->
+    <footer>
+        <div class="imagenfriends">
+            <img src="/img/personajes.jpg" alt="Imagen de Personajes principales">
+        </div>
+        <div class="derechos-de-autor">Creado por Alejandra Alvarado Gardea para el Bootcamp Frontend con
+            Tecnolochicas(2024) &#169;</div>
+    </footer>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

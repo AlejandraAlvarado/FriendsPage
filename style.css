@@ -1,0 +1,139 @@
+body{
+    background-color: #0d090a !important;
+    color: white;
+    /*background: linear-gradient(#ee2838, #40b4e6,#f8b31f,#0d090a,#ee2838, #40b4e6,#f8b31f);*/
+    font-family: "Poppins",sans-serif;
+}
+
+@keyframes anim{
+    16% {color: #ee2838;} /*Rojo*/
+   32% {color: #40b4e6;} /*Azul*/
+   48% {color: #f8b31f;} /*Amarillo*/
+   64% {color: #ee2838;} /*Rojo*/
+  82% {color: #40b4e6;} /*Azul*/
+  100% {color: #f8b31f;} /*Amarillo*/
+}
+.titulo {
+  animation-name: anim;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  padding: 0 30px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+@keyframes anim2{
+    25% {color: #ee2838;} /*Rojo*/
+   50% {color: #40b4e6;} /*Azul*/
+   75% {color: #f8b31f;} /*Amarillo*/
+   100% {color: #ffffff;} /*Rojo*/
+}
+#tituloSerie {
+  animation-name: anim2;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 30px 30px;
+}
+
+.concepto{
+    margin: 30px;
+    background-color: #ee2838;
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px white;
+    padding: 20px;
+    color: white;
+}
+.amarillo{
+    background-color: #f8b31f;
+}
+
+.personajesprincipales{
+    margin: 30px;
+    background-color: #40b4e6;
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px white;
+    padding: 10px;
+    color: white;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+.personajesprincipales img{
+    height: 550px;
+}
+
+.tituloconcepto{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 20px;
+    animation-name: anim;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.concepto .info{
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.concepto .info .imagendiv{
+    height: 300px;
+    border-radius: 30px;
+    padding: 20px;
+}
+.concepto .info .texto{
+    padding: 0 20px;
+    font-weight: bold;
+}
+.encabezados{
+    padding: 10px;
+}
+ .carousel{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+ }
+ .carousel-item img{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-radius: 30px;
+ }
+ .google{
+    text-decoration: none;
+    color: #ee2838;
+ }
+ .listafriends{
+    list-style: none;
+ }
+ footer{
+    
+    padding: 50px;
+    color: white;
+ }
+ footer .imagenfriends{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+footer .derechos-de-autor{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+/* Adaptable (Responsivo) */
+
+  
+  @media screen and (max-width: 800px) {
+    .imagendiv {
+      width: 300px;
+    }
+}
